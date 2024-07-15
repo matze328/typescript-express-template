@@ -8,6 +8,8 @@
     "dev": "nodemon",
     "lint": "eslint . --ext .ts",
  "lint:fix": "eslint 'src/**/*.{ts,tsx}' --fix",
+ "prettier": "prettier --check .",
+ "prettier:fix": "prettier --write .",
     "build": "tsc"
   },
   "author": "",
