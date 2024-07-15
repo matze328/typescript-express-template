@@ -1,22 +1,20 @@
 export interface IMarkTodoBody {
-    todoId: number;
-    newIsDone: boolean;
-  }
+  todoId: number;
+  newIsDone: boolean;
+}
 
 export interface IUpdateTodoBody {
-    todoId: number;
-    newTask: string;
-    newIsDone: boolean;
-    newDueDate: string;
-
+  todoId: number;
+  newTask: string;
+  newIsDone: boolean;
+  newDueDate: string;
 }
 export interface ICreateTodoBody {
-    newTask: string;
-    newIsDone: boolean;
-    newDueDate: string;
-    newUserId: number;
-   
+  newTask: string;
+  newIsDone: boolean;
+  newDueDate: string;
+  newUserId: number;
 }
 export interface IDeleteTodoBody {
-    todoId: number;
+  todoId: number;
 }
