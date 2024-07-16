@@ -10,7 +10,8 @@
     "lint:fix": "eslint 'src/**/*.{ts,tsx}' --fix",
     "prettier": "prettier --check .",
     "prettier:fix": "prettier --write .",
-    "build": "tsc"
+    "build": "tsc",
+    "swagger": "tsoa spec-and-routes"
   },
   "author": "",
   "license": "ISC",
@@ -41,6 +42,7 @@
     "express": "^4.19.2",
     "http-status-codes": "^2.3.0",
     "mysql2": "^3.10.2",
-    "sequelize": "^6.37.3"
+    "sequelize": "^6.37.3",
+    "tsoa": "^6.4.0"
   }
 }
