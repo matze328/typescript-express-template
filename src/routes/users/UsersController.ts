@@ -7,7 +7,7 @@ import UserModel from '../../database/models/UserModel';
 @Route('v1/users')
 @Tags('Users')
 export class UsersController extends Controller {
-  @Get('{User}')
+  @Get('currentuser')
   public async getCurrentUser(
     @Query() id: number,
   ): Promise<UserAttributes | null> {

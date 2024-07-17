@@ -26,7 +26,7 @@ todoSequelize
       }),
     );
     console.log(
-      `Swagger launched on at https://localhost:${
+      `Swagger launched on at http://localhost:${
         process.env.PORT ?? ''
       }/swagger`,
     );
