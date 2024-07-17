@@ -11,7 +11,7 @@
     "prettier": "prettier --check .",
     "prettier:fix": "prettier --write .",
     "build": "tsc",
-    "swagger": "tsoa spec"
+    "swagger": "tsoa spec-and-routes"
   },
   "author": "",
   "license": "ISC",
@@ -44,7 +44,6 @@
     "http-status-codes": "^2.3.0",
     "mysql2": "^3.10.2",
     "sequelize": "^6.37.3",
-    "swagger-ui-express": "^5.0.1",
     "tsoa": "^6.4.0"
   }
 }
