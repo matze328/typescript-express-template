@@ -10,7 +10,7 @@ RUN npm install --only=production
 
 COPY . .
 
-CMD ["sh", "-c", "echo Hallo $NAME! && node server.ts"]
+CMD [ "sh", "-c", "node", "server.ts", "echo Hallo $NAME!"]
 
 EXPOSE 5050
 
